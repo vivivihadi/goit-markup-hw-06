@@ -641,7 +641,7 @@ height: 56px;
 border-color: transparent;
 left: 50%;
 transform: translatex(-50%);
- 
+margin-bottom: 24px;
 }
 .modal-form-title {
 font-weight: 500;
@@ -653,16 +653,17 @@ color: var(--color-bgr-dark);
 margin-top: 24px;
 margin-bottom: 16px;
 }
-.modal-field {
-margin-bottom: 4px;
-}
+
 .modal-field label {
-margin-bottom: 4px;
+margin-bottom: 8px;
 font-weight: 400;
 font-size: 12px;
 line-height: 1.16;
 letter-spacing: 0.04em;
 color: #8E8F99;
+}
+.modal-field {
+margin-bottom: 8px;
 }
 .modal-input {
 width: 100%;
@@ -671,6 +672,7 @@ padding-left: 38px;
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 outline: transparent;
+margin-top: 4px;
 }
 .modal-input:focus,
 .modal-comment:focus {
@@ -697,6 +699,7 @@ resize: none;
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 outline: transparent;
+margin-top: 4px;
 }
 .modal-comment::placeholder {
 font-size: 12px;
