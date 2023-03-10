@@ -655,12 +655,13 @@ margin-bottom: 16px;
 }
 
 .modal-field label {
-margin-bottom: 8px;
 font-weight: 400;
 font-size: 12px;
 line-height: 1.16;
 letter-spacing: 0.04em;
 color: #8E8F99;
+display: block;
+margin-bottom: 4px;
 }
 .modal-field {
 margin-bottom: 8px;
@@ -672,7 +673,6 @@ padding-left: 38px;
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 outline: transparent;
-margin-top: 4px;
 }
 .modal-input:focus,
 .modal-comment:focus {
@@ -699,7 +699,7 @@ resize: none;
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 outline: transparent;
-margin-top: 4px;
+
 }
 .modal-comment::placeholder {
 font-size: 12px;
